@@ -2,7 +2,7 @@
 #include<Wire.h>
 #include <DHT.h>
 
-#define DHTPIN 4 
+#define DHTPIN 12
 #define DHTTYPE DHT22  
 
 DHT dht(DHTPIN, DHTTYPE);
